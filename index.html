@@ -1,0 +1,1730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <nav class="nav ">
+                <div class="container">
+                    <ul class="nav-list">
+                        <li class="nav-item saparate hide-on-mobile-tablet">
+                            <div class="o-5">Tải ứng dụng Mỹ Phẩm Ohui - LG Vina</div>
+                            <div class="nav__qr">
+                                <a href="#" class="nav__qr-img">
+                                    <img src="https://img.abaha.vn/photos/qrcode_base64/aHR0cDovL2h5cGVydXJsLmNvL215b2h1aQ"
+                                        alt="">
+                                </a>
+                                <div class="nav__qr-app-download">
+                                    <a href="#" class="nav__qr-app-download-img">
+                                        <img src="https://ohuivina.com/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png"
+                                            alt="">
+                                    </a>
+                                    <a href="#" class="nav__qr-app-download-img">
+                                        <img src="https://ohuivina.com/assets/images/icons/f014ef6b544459bf2463167d3226851f.png"
+                                            alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item saparate"><i class="fas fa-phone-alt"></i>
+                            <a href="tel:0965866851" class="phone-contact o-5">0965866851</a>
+                        </li>
+                        <li class="nav-item"><i class="fas fa-envelope"></i>
+                            <a href="mailto:ohuivina.com@gmail.com" class="email-contact o-5">ohuivina.com@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul class="nav-list hide-on-mobile-tablet">
+                        <li class="nav-item ">
+                            <a class="o-5" href="">
+                                <i class="icons-size-l mr-4 far fa-bell"></i> Tin tức
+                            </a>
+                            <div class="nav__notify">
+                                <div class="nav__notify-heading">
+                                    Tin tức mới nhất
+                                </div>
+                                <div class="nav__notify-content">
+                                    <ul class="nav__notify-list">
+                                        <li class="nav__notify-item">
+                                            <a href="" class="nav__notify-link">
+                                                <div class="nav__notify-img">
+                                                    <img src="https://img.abaha.vn/photos/resized/200x120/83-1627146178-myphamohui-lgvina.png"
+                                                        alt="">
+                                                </div>
+                                                <div class="nav__notify-title">Khi cushion cũng có thể khiến bạn hạnh phúc !
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="nav__notify-item">
+                                            <a href="" class="nav__notify-link">
+                                                <div class="nav__notify-img">
+                                                    <img src="https://img.abaha.vn/photos/resized/200x120/83-1627146178-myphamohui-lgvina.png"
+                                                        alt="">
+                                                </div>
+                                                <div class="nav__notify-title">Khi cushion cũng có thể khiến bạn hạnh phúc !
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="nav__notify-item">
+                                            <a href="" class="nav__notify-link">
+                                                <div class="nav__notify-img">
+                                                    <img src="https://img.abaha.vn/photos/resized/200x120/83-1627146178-myphamohui-lgvina.png"
+                                                        alt="">
+                                                </div>
+                                                <div class="nav__notify-title">Khi cushion cũng có thể khiến bạn hạnh phúc !
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="nav__notify-item">
+                                            <a href="" class="nav__notify-link">
+                                                <div class="nav__notify-img">
+                                                    <img src="https://img.abaha.vn/photos/resized/200x120/83-1627146178-myphamohui-lgvina.png"
+                                                        alt="">
+                                                </div>
+                                                <div class="nav__notify-title">Khi cushion cũng có thể khiến bạn hạnh phúc !
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav__notify-footer">
+                                    <a href="" class="nav__notify-all">Xem tất cả</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item o-5"><a href=""><i class="icons-size-l mr-4 far fa-question-circle"></i> Liên
+                                hệ</a></li>
+                        <!-- not login -->
+                        <li class="nav-item saparate o-5"><a href="#" onclick="event.preventDefault();showRegister(event)">
+                                Đăng Ký</a></li>
+                        <li class="nav-item o-5"><a href="#" onclick="event.preventDefault();showLogin(event)"> Đăng
+                                Nhập</a></li>
+                        <!-- loggeed -->
+                        <li class="nav-item nav-user d-none">
+                            <img class="nav-user__avatar "
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzg6iSvJO1i5y1K2L-_s0C7BbMjIg0MG5WhCAUBtSu3rq_YTQGC6ffcyKgrpo-P9MzZKg&usqp=CAU"
+                                alt="">
+                            <div class="nav-user__name ">Phạm Gia Hoàng</div>
+    
+                            <ul class="nav-user__menu">
+                                <li class="nav-user__menu-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="nav-user__menu-item">
+                                    <a href="">Đơn hàng</a>
+                                </li>
+                                <li class="nav-user__menu-item">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-with-search">
+                <div class="container header-with-search__content">
+                   
+                    <input type="checkbox" hidden id="search-mobile">
+                    <label for="search-mobile"><i class="header__icon-search--mobile fas fa-search"></i></label>
+                   
+                    <a href="" class="header-with-search__logo">
+                        <img src="https://img.abaha.vn/photos/resized/320x/83-1574737287-myphamohui-lgvina.png" alt="">
+                    </a>
+                    <div class="header-with-search__searchbar ">
+                        <div class="header-with-search__searchbar-block">
+                            <input type="text" class="header-with-search__searchbar-input col-12" placeholder="Tìm kiếm...">
+                            <ul class="header-with-search__searchbar-list">
+                                <li class="header-with-search__searchbar-item">Lịch sử tìm kiếm</li>
+                                <li class="header-with-search__searchbar-item active"><a href="">Kem dưỡng ẩm</a></li>
+                            </ul>
+                        </div>
+                        <div class="searchbar-selector">
+                            <span class="searchbar-selector-label">Toàn bộ cửa hàng</span>
+                            <div class="searchbar-selector-icon"><i class="fas fa-chevron-right"></i></div>
+                            <div class="searchbar-selector__drawer">
+                                <div class="searchbar-selector__option">
+                                    <a href="" class="searchbar-selector__option-label">Toàn bộ cửa hàng</a>
+                                    <div class="searchbar-selector__option-tick">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn header-with-search__searchbar-btn">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                    <div class="header__wrapper">
+                        <div class="header-with-search__cart">
+                            <div class="header-with-search__cart-section">
+                                <i class="header-with-search__cart-icon fas fa-shopping-cart">
+                                    <div class="header-with-search__cart-count ">
+                                        1
+                                    </div>
+                                </i>
+                                <div class="header__cart-list ">
+                                    <!-- header__cart-list--no-cart -->
+                                    <img class="header__cart-no-cart-img" src="./assets/img/no-cart.png" alt="">
+                                    <div class="header__cart-no-cart-msg">Chưa có sản phẩm</div>
+        
+                                    <!-- header__cart-list--has-cart -->
+                                    <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                    <ul class="header__cart-list-item">
+                                        <li class="header__cart-item">
+                                            <img class="header__cart-item-img"
+                                                src="https://img.abaha.vn/photos/resized/320x/73-1574413855-myohui.png" alt="">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <h5 class="header__cart-item-name">Set tái sinh Ohui Thefirst mini 7 món
+                                                    </h5>
+                                                    <div class="header__cart-item-right">
+                                                        <span class="header__cart-item-price">900.000đ</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-quantity">1</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <span class="header__cart-item-category">Thương hiệu:
+                                                        <span>Ohui</span></span>
+                                                    <span class="header__cart-item-remove">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="header__cart-item">
+                                            <img class="header__cart-item-img"
+                                                src="https://img.abaha.vn/photos/resized/320x/73-1574413855-myohui.png" alt="">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <h5 class="header__cart-item-name">Set tái sinh Ohui Thefirst mini 7 món
+                                                    </h5>
+                                                    <div class="header__cart-item-right">
+                                                        <span class="header__cart-item-price">900.000đ</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-quantity">1</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <span class="header__cart-item-category">Thương hiệu:
+                                                        <span>Ohui</span></span>
+                                                    <span class="header__cart-item-remove">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="header__cart-item">
+                                            <img class="header__cart-item-img"
+                                                src="https://img.abaha.vn/photos/resized/320x/73-1574413855-myohui.png" alt="">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <h5 class="header__cart-item-name">Set tái sinh Ohui Thefirst mini 7 món
+                                                    </h5>
+                                                    <div class="header__cart-item-right">
+                                                        <span class="header__cart-item-price">900.000đ</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-quantity">1</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <span class="header__cart-item-category">Thương hiệu:
+                                                        <span>Ohui</span></span>
+                                                    <span class="header__cart-item-remove">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="header__cart-footer">
+                                        <div class="header__cart-info">
+                                            <div class="header__cart-info-item">
+                                                <div class="header__cart-info-title">Tổng số tiền:</div>
+                                                <div class="header__cart-info-value">1.300.300đ</div>
+                                            </div>
+                                        </div>
+                                        <div class="view-cart">
+                                            <a class="btn view-cart__link" href="">Xem tất cả</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                        <div class="header-with-search__user--mobile">
+                            <img class="js-img-user--mobile"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzg6iSvJO1i5y1K2L-_s0C7BbMjIg0MG5WhCAUBtSu3rq_YTQGC6ffcyKgrpo-P9MzZKg&usqp=CAU"
+                                alt="">
+                            <div class="modal modal-user d-none">
+                                <div class="modal__overlay"></div>
+                                <div class="modal-user__info">
+                                    <div class="modal-user__head">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzg6iSvJO1i5y1K2L-_s0C7BbMjIg0MG5WhCAUBtSu3rq_YTQGC6ffcyKgrpo-P9MzZKg&usqp=CAU"
+                                            alt="">
+                                        Khách lẻ
+                                    </div>
+        
+                                    <div class="modal-user__body">
+                                        <div class="modal-user__body-control">
+                                            <a href="" class="btn modal-user__body-control-link">Tin tức</a>
+                                            <a href=""  onclick="event.preventDefault();showLogin(event)" class="btn btn--primary modal-user__body-control-link">Đăng ký</a>
+                                        </div>
+                                        <div class="modal-user__body-list">
+                                            <li class="modal-user__body-item"><a href=""> Tin tức</a></li>
+                                            <li class="modal-user__body-item"><a href=""> Giỏ hàng</a></li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <ul class="header__sort-bar">
+                <li class="header__sort-item"><a href="" class="header__sort-link">Phổ biến</a></li>
+                <li class="header__sort-item"><a href="" class="header__sort-link active">Mới nhất</a></li>
+                <li class="header__sort-item"><a href="" class="header__sort-link">Bán chạy</a></li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">
+                        Giá
+                        <div class="header__sort-icons">
+                            <i class="header__sort-icon-up fas fa-chevron-up"></i>
+                            <i class="header__sort-icon-down fas fa-chevron-down"></i>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </header>
+        <div class="main">
+            <div class="main-content">
+                <div class="shop-search-page container">
+                    <div class="breadcrumbs--margin hide-on-mobile-tablet">
+                        <ul class="breadcrumbs__list">
+                            <li class="breadcrumbs__item">
+                                <a href="" class="breadcrumbs__link">Trang chủ</a>
+                                <i class="fas fa-chevron-right"></i>
+                            </li>
+                            <li class="breadcrumbs__item"><span>Tất cả sản phẩm</span></li>
+                        </ul>
+                    </div>
+                    <div class="shop-search-page__body row sm-gutter">
+                        <div class="shop-search-page__left col col-lg-2 hide-on-mobile-tablet">
+                            <nav class="shop-search-page__menu">
+                                <h3 class="shop-search-page__menu-heading">
+                                    Danh mục
+                                </h3>
+                                <ul class="shop-search-page__menu-list">
+                                    <li class="shop-search-page__menu-item">
+                                        <a href="" class="shop-search-page__menu-link active">Tất Cả Sản Phẩm</a>
+                                    </li>
+                                    <li class="shop-search-page__menu-item">
+                                        <a href="" class="shop-search-page__menu-link">
+                                            Ohui
+                                            <i class="fas fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="shop-search-page__menu-list sub-nav">
+    
+                                            <li class="shop-search-page__menu-item">
+                                                <a href="" class="shop-search-page__menu-link">
+                                                    Ohui Thefirst Tái Sinh
+                                                    <!-- <i class="fas fa-chevron-right"></i> -->
+                                                </a>
+    
+                                            </li>
+                                            <li class="shop-search-page__menu-item">
+                                                <a href="" class="shop-search-page__menu-link">
+                                                    Ohui Dưỡng Trắng
+                                                    <!-- <i class="fas fa-chevron-right"></i> -->
+                                                </a>
+    
+                                            </li>
+                                            <li class="shop-search-page__menu-item">
+                                                <a href="" class="shop-search-page__menu-link">
+                                                    Ohui Thefirst Tái Sinh
+                                                    <!-- <i class="fas fa-chevron-right"></i> -->
+                                                </a>
+    
+                                            </li>
+                                            <li class="shop-search-page__menu-item">
+                                                <a href="" class="shop-search-page__menu-link">
+                                                    Ohui Prime Advancer
+                                                    <!-- <i class="fas fa-chevron-right"></i> -->
+                                                </a>
+    
+                                            </li>
+    
+                                        </ul>
+                                    </li>
+                                    <li class="shop-search-page__menu-item">
+                                        <a href="" class="shop-search-page__menu-link">Whoo
+                                            <i class="fas fa-chevron-right"></i>
+                                        </a>
+                                    </li>
+                                    <li class="shop-search-page__menu-item">
+                                        <a href="" class="shop-search-page__menu-link">dịch vụ
+                                            <i class="fas fa-chevron-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="shop-search-page__right col col-lg-10 col-md-12 col-sm-12">
+                            <div class="mobile-category">
+                                <ul class="mobile-category__list">
+                                    <li class="mobile-category__item"><a href="" class="mobile-category__link">Ohui Thefirst Tái Sinh </a></li>
+                                    <li class="mobile-category__item"><a href="" class="mobile-category__link">Ohui Thefirst Tái Sinh </a></li>
+                                    <li class="mobile-category__item"><a href="" class="mobile-category__link">Ohui Thefirst Tái Sinh </a></li>
+                                    <li class="mobile-category__item"><a href="" class="mobile-category__link">Ohui Thefirst Tái Sinh </a></li>
+                                    <li class="mobile-category__item"><a href="" class="mobile-category__link">Ohui Thefirst Tái Sinh </a></li>
+                                    <li class="mobile-category__item"><a href="" class="mobile-category__link">Ohui Thefirst Tái Sinh </a></li>
+                                    <li class="mobile-category__item"><a href="" class="mobile-category__link">Ohui Thefirst Tái Sinh </a></li>
+                                    <li class="mobile-category__item"><a href="" class="mobile-category__link">Ohui Thefirst Tái Sinh </a></li>
+                                    <li class="mobile-category__item"><a href="" class="mobile-category__link">Ohui Thefirst Tái Sinh </a></li>
+                                    <li class="mobile-category__item"><a href="" class="mobile-category__link">Ohui Thefirst Tái Sinh </a></li>
+                                    <li class="mobile-category__item"><a href="" class="mobile-category__link">Ohui Thefirst Tái Sinh </a></li>
+                                    <li class="mobile-category__item"><a href="" class="mobile-category__link">Ohui Thefirst Tái Sinh </a></li>
+                                    <li class="mobile-category__item"><a href="" class="mobile-category__link">Ohui Thefirst Tái Sinh </a></li>
+                                    <li class="mobile-category__item"><a href="" class="mobile-category__link">Ohui Thefirst Tái Sinh </a></li>
+                                    <li class="mobile-category__item"><a href="" class="mobile-category__link">Ohui Thefirst Tái Sinh </a></li>
+                                    <li class="mobile-category__item"><a href="" class="mobile-category__link">Ohui Thefirst Tái Sinh </a></li>
+                                </ul>
+                            </div>
+
+
+                            <div class="shop-all-product-view">
+                                <div class="home-filter hide-on-mobile-tablet">
+                                    <span class="home-filter__label">Sắp xếp theo:</span>
+                                    <a href="" class="btn btn--primary home-filter__btn">Phổ biến</a>
+                                    <a href="" class="btn home-filter__btn ">Mới nhất</a>
+                                    <a href="" class="btn home-filter__btn">Bán chạy</a>
+                                    <div class="select-input">
+                                        <div class="select-input__label">
+                                            <span class="select-input__price active">Giá</span>
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                        <ul class="select-input__list">
+                                            <li class="select-input__item active"><a href=""> Giá: từ thấp đến cao</a> </li>
+                                            <li class="select-input__item"><a href=""> Giá: từ cao đến thấp</a> </li>
+                                        </ul>
+                                    </div>
+                                    <div class="home-filter__paginate">
+                                        <div class="home-filter__page-num">
+                                            <div class="home-filter__page-current">1</div>
+                                            <div class="home-filter__page-total">/12</div>
+                                        </div>
+                                        <div class="home-filter__page-control">
+                                            <a href="" class="home-filter__page-btn disable">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="" class="home-filter__page-btn">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="home-product">
+                                    <div class="row sm-gutter">
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col col-lg-2-4 col-md-4 col-sm-6">
+                                            <a href="" class="home-product-item">
+                                                <div class="home-product-item__img"
+                                                    style="background-image: url(https://img.abaha.vn/photos/resized/320x/83-1621760590-myphamohui-lgvina.png);">
+                                                </div>
+                                                <div class="home-product-item__content">
+                                                    <h4 class="home-product-item__name">Kem chống nắng dạng sữa dưỡng da
+                                                        trắng mịn Whoo Vital Hydrating Sun Fluid SPF50+ PA+++ 60ml</h4>
+                                                    <div class="home-product-item__price">
+                                                        <span class="home-product-item__price-old">1.100.000đ</span>
+                                                        <span class="home-product-item__price-current">990.000đ</span>
+                                                    </div>
+                                                    <div class="home-product-item__action">
+                                                        <!-- home-product-item__action-like--liked -->
+                                                        <span class="home-product-item__action-like ">
+                                                            <i
+                                                                class="home-product-item__action-like-empty far fa-heart"></i>
+                                                            <i
+                                                                class="home-product-item__action-like-fill  fas fa-heart "></i>
+                                                        </span>
+                                                        <div class="home-product-item__rating">
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <div class="home-product-item__sold">
+                                                                <span>2</span>Đã bán
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-product-item__origin">
+                                                        <div class="home-product-item__brand">Whoo</div>
+                                                        <div class="home-product-item__origin-name">Hàn Quốc</div>
+                                                    </div>
+                                                </div>
+                                                <div class="home-product-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <div class="home-product-item__favourite-label">Yêu thích</div>
+                                                </div>
+                                                <div class="home-product-item__sale-off">
+                                                    <div class="home-product-item__sale-off-percent">10%</div>
+                                                    <div class="home-product-item__sale-off-label">giảm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+    
+    
+    
+                                    </div>
+                                </div>
+    
+                                <ul class="pagination">
+                                    <li class="pagination-item">
+                                        <a href="" class="pagination-item__link">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </a>
+                                    </li>
+    
+                                    <li class="pagination-item ">
+                                        <a href="" class="pagination-item__link">
+                                            1
+                                        </a>
+                                    </li>
+    
+                                    <li class="pagination-item active">
+                                        <a href="" class="pagination-item__link">
+                                            2
+                                        </a>
+                                    </li>
+    
+                                    <li class="pagination-item">
+                                        <a href="" class="pagination-item__link">
+                                            3
+                                        </a>
+                                    </li>
+    
+    
+                                    <li class="pagination-item">
+                                        <a href="" class="pagination-item__link">
+                                            4
+                                        </a>
+                                    </li>
+    
+                                    <li class="pagination-item">
+                                        <a href="" class="pagination-item__link">
+                                            5
+                                        </a>
+                                    </li>
+    
+                                    <li class="pagination-item">
+                                        <span href="" class="pagination-item__link">
+                                            ...
+                                        </span>
+                                    </li>
+    
+                                    <li class="pagination-item">
+                                        <a href="" class="pagination-item__link">
+                                            14
+                                        </a>
+                                    </li>
+    
+    
+                                    <li class="pagination-item">
+                                        <a href="" class="pagination-item__link">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__menu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-lg-2-4 col-md-6 col-sm-6">
+                            <h5 class="footer__menu-heading">Chăm sóc khách hàng</h5>
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="">trung tâm hỗ trợ</a>
+                                </li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="">hướng dẫn mua hàng</a>
+                                </li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="">chính sách vận chuyển</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col col-lg-2-4 col-md-6 col-sm-6">
+                            <h5 class="footer__menu-heading">Về chúng tôi</h5>
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="">về mỹ phẩm ohui-LG
+                                        vina</a> </li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="">chính sách thanh toán</a>
+                                </li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="">điều khoản chính sách</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <div class="col col-lg-2-4 col-md-6 col-sm-6"></div> -->
+                        <div class="footer__menu-column--social col col-lg-2-4 col-md-6 col-sm-6">
+                            <h5 class="footer__menu-heading">theo dõi chúng tôi</h5>
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="">
+                                        <i class="fab fa-facebook"></i> Facebook
+                                    </a>
+                                </li>
+    
+                            </ul>
+                        </div>
+                        <div class="col col-lg-2-4 col-md-6 col-sm-6">
+                            <h5 class="footer__menu-heading">ĐI TỚI CỬA HÀNG MỸ PHẨM OHUI - LG VINA</h5>
+                            <div class="footer__menu-qr">
+                                <a href="#" class="footer__menu-qr-img">
+                                    <img src="https://img.abaha.vn/photos/qrcode_base64/aHR0cDovL2h5cGVydXJsLmNvL215b2h1aQ"
+                                        alt="">
+                                </a>
+                                <div class="footer__menu-app-download">
+                                    <a href="#" class="footer__menu-app-download-img">
+                                        <img src="https://ohuivina.com/assets/images/icons/02b83d7c975e2830effa5fdf2045095c.png"
+                                            alt="">
+                                    </a>
+                                    <a href="#" class="footer__menu-app-download-img">
+                                        <img src="https://ohuivina.com/assets/images/icons/f014ef6b544459bf2463167d3226851f.png"
+                                            alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__info">
+                <div class="container">
+                    <ul class="footer__info-menu-list">
+                        <li class="footer__info-menu-item">
+                            <a href="" class="footer__info-menu-link">chính sách bảo mật</a>
+                        </li>
+                        <li class="footer__info-menu-item">
+                            <a href="" class="footer__info-menu-link">quy chế hoạt động</a>
+                        </li>
+                        <li class="footer__info-menu-item">
+                            <a href="" class="footer__info-menu-link">trả hàng & hoàn tiền</a>
+                        </li>
+                    </ul>
+                    <div class="footer__info-address">
+                        <p>Công ty mỹ phẩm Ohui- LGvina</p>
+                        <p>Chi nhánh: 63 Lê Văn Lương, Trung Hòa, Cầu Giấy, Hà Nội</p>
+                    </div>
+                    <div class="powered-by">
+                        ♥ Powered by:
+                        <a href="">ABAHA.vn</a> - Nền tảng thiết kế Web bán hàng online nhanh và chuyên nghiệp nhất
+                    </div>
+                </div>
+            </div>
+    
+        </footer>
+        <div class="modal modal-auth d-none">
+            <div class="modal__overlay"></div>
+            <div class="modal__body">
+                <!-- Form Register -->
+                <div class="auth-form register-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng ký</h3>
+                            <span onclick="event.preventDefault();showLogin(event)" class="auth-form__switch-btn">Đăng
+                                nhập</span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group col-12">
+                                <input type="text" class="auth-form__input " placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-form__message-error"></div>
+                            <div class="auth-form__group col-12 d-flex justify-content-space-between align-items-center">
+                                <input type="password" class="auth-form__input " placeholder="Mật khẩu của bạn">
+                                <i class="icons-size-l icon-eye d-none show-eye mt-16 far fa-eye"></i>
+                            </div>
+                            <div class="auth-form__message-error"></div>
+                            <div class="auth-form__group col-12 d-flex justify-content-space-between align-items-center">
+                                <input type="password" class="auth-form__input " placeholder="Nhập lại mật khẩu của bạn">
+                                <i class="icons-size-l icon-eye d-none show-eye mt-16 far fa-eye"></i>
+                            </div>
+                            <div class="auth-form__message-error"></div>
+                        </div>
+                        <div class="auth-form__aside">
+                            <div class="auth-form__policy-text">
+                                Bằng việc đăng ký, bạn đã đồng ý với Shoppe về
+                                <a href="" class="auth-form__policy-link">Điều khoản dịch vụ </a>&
+                                <a href="" class="auth-form__policy-link">chính sách bảo mật.</a>
+                            </div>
+                        </div>
+                        <div class="auth-form__control">
+                            <button onclick="closeModal()" class="btn btn-normal">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+                    <div class="auht-form__socials">
+                        <a href="" class="btn  btn--with-icon auht-form__socials-facebook">
+                            <i class="auht-form__socials-icon fab fa-facebook-square"></i>
+                            <div class="auth-form__socical-text">Kết nối với Facebook</div>
+                        </a>
+                        <a href="" class="btn btn--with-icon auht-form__socials-google">
+                            <i class="auht-form__socials-icon fab fa-google"></i>
+                            <div class="auth-form__socical-text">Kết nối với Google</div>
+                        </a>
+                    </div>
+                </div>
+                <!-- Form Login -->
+                <div class="auth-form login-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng nhập</h3>
+                            <span onclick="event.preventDefault();showRegister(event)" class="auth-form__switch-btn">Đăng
+                                ký</span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group col-12">
+                                <input type="text" class="auth-form__input " placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-form__message-error"></div>
+                            <div class="auth-form__group d-flex justify-content-space-between align-items-center col-12">
+                                <input type="password" class="auth-form__input " placeholder="Mật khẩu của bạn">
+                                <i class="icons-size-l icon-eye d-none show-eye mt-16 far fa-eye"></i>
+                            </div>
+                            <div class="auth-form__message-error"></div>
+                        </div>
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help-link">Quên mật khẩu</a>
+                                <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                            </div>
+                        </div>
+                        <div class="auth-form__control">
+                            <button onclick="closeModal()" class="btn btn-normal">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+                    <div class="auht-form__socials">
+                        <a href="" class="btn  btn--with-icon auht-form__socials-facebook">
+                            <i class="auht-form__socials-icon fab fa-facebook-square"></i>
+                            <div class="auth-form__socical-text">Kết nối với Facebook</div>
+                        </a>
+                        <a href="" class="btn btn--with-icon auht-form__socials-google">
+                            <i class="auht-form__socials-icon fab fa-google"></i>
+                            <div class="auth-form__socical-text">Kết nối với Google</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+        <div id="toast">
+        </div>
+    </div>
+    <script src="./assets/script/toast.js"></script>
+    <script>
+        var modalAuth = $('.modal-auth')
+        var loginForm = $('.login-form')
+        var registerForm = $('.register-form')
+
+        var inputPasswords = $$('input[type="password"]')
+        var eyeIcons = $$('.icon-eye')
+
+        // show icon when key down
+        inputPasswords.forEach((element) => {
+
+            element.onkeyup = function () {
+                if (this.value == "") {
+                    this.parentElement.querySelector('.icon-eye').classList.add('d-none')
+                } else {
+                    this.parentElement.querySelector('.icon-eye').classList.remove('d-none')
+                }
+            }
+
+        })
+
+
+        // Show hide password
+        eyeIcons.forEach((element) => {
+            element.onclick = function () {
+                if (this.classList.contains('fa-eye')) {
+                    this.parentElement.querySelector('.icon-eye').classList.remove('d-none')
+                    this.classList.remove('fa-eye')
+                    this.classList.add('fa-eye-slash')
+                    this.parentElement.querySelector('input').type = "text"
+                } else {
+                    this.parentElement.querySelector('.icon-eye').classList.remove('d-none')
+                    this.classList.add('fa-eye')
+                    this.classList.remove('fa-eye-slash')
+                    this.parentElement.querySelector('input').type = "password"
+                }
+            }
+        })
+
+        function showLogin() {
+            loginForm.classList.remove('d-none')
+
+            modalAuth.classList.remove('d-none')
+            registerForm.classList.add('d-none')
+        }
+
+        function showRegister() {
+            registerForm.classList.remove('d-none')
+
+            modalAuth.classList.remove('d-none')
+            loginForm.classList.add('d-none')
+        }
+
+        function closeModal() {
+            // delete text and message
+            var authFormInputs = $$('.auth-form__input')
+            authFormInputs.forEach((e) => {
+                e.value = "";
+                if (e.parentElement.nextElementSibling && e.parentElement.nextElementSibling.classList.contains('auth-form__message-error')) {
+                    e.parentElement.nextElementSibling.textContent = ""
+                }
+                e.onblur = function () {
+                    console.log(e.parentElement.nextElementSibling)
+                }
+            })
+            //close modal
+            modalAuth.classList.add('d-none')
+        }
+    </script>
+    <script>
+        var pageBtnDisable = $('.home-filter__page-btn.disable')
+        pageBtnDisable.removeAttribute('href')
+
+        var imgUser = document.querySelector('.js-img-user--mobile')
+        var modalUser = document.querySelector('.modal-user')
+        var userInfo = document.querySelector('.modal-user__info')
+
+        var arr = [imgUser, modalUser]
+        arr.forEach(function (e) {
+            e.onclick = function () {
+                modalUser.classList.toggle('d-none')
+            }
+        })
+
+        userInfo.onclick = function (e) {
+            e.stopPropagation()
+        }
+
+        //sort bar 
+        var sortBarLink = document.querySelectorAll('.header__sort-link')
+        
+        
+        sortBarLink.forEach(e=>{
+            e.onclick = function (event) {
+                event.preventDefault()
+                document.querySelector('.header__sort-link.active').classList.remove('active')
+                e.classList.add('active')
+               
+                if(e.textContent.trim()=='Giá') {
+                    if(!e.lastElementChild.firstElementChild.classList.contains('d-none')){
+                        e.lastElementChild.firstElementChild.classList.add('d-none')
+                        e.lastElementChild.lastElementChild.classList.remove('d-none')
+                    }
+                    else {
+                        e.lastElementChild.lastElementChild.classList.add('d-none')
+                        e.lastElementChild.firstElementChild.classList.remove('d-none')
+                    }
+                }
+                else {
+                    document.querySelector('.header__sort-icon-up').classList.remove('d-none')
+                    document.querySelector('.header__sort-icon-down').classList.remove('d-none')
+                }
+            }
+        })
+
+
+
+    </script>
+
+</body>
+
+</html>
